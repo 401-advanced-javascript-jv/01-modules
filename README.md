@@ -5,15 +5,8 @@
 ### Author: Jesse Van Volkinburg
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
-* [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
-
-#### Documentation
-* [api docs](http://xyz.com) (API servers)
-* [jsdoc](http://xyz.com) (Server assignments)
-* [styleguide](http://xyz.com) (React assignments)
+* [submission PR](https://github.com/401-advanced-javascript-jv/01-modules/pull/2)
+* [travis](https://travis-ci.com/401-advanced-javascript-jv/01-modules)
 
 ### Modules
 #### `arithmetic.js`
