@@ -32,7 +32,7 @@ describe('arithmetic functions', () => {
     });
     it('returns null with no parameters', () => {
       expect(arithmetic.subtract()).toBeNull();
-    })
+    });
   });
   
   describe('arithmetic.multiply', () => {
@@ -60,7 +60,7 @@ describe('arithmetic functions', () => {
     });
     it('returns null if a parameter is not a number', () => {
       expect(arithmetic.divide('fishy', 'bob')).toBeNull();
-    })
+    });
   });
 });
 
@@ -71,4 +71,4 @@ describe('greet function', () => {
   it('returns null when called with anything but a string', () => {
     expect(greet(42)).toBeNull();
   });
-})
+});
