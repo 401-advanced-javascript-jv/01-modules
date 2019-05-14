@@ -16,31 +16,22 @@
 * [styleguide](http://xyz.com) (React assignments)
 
 ### Modules
-#### `modulename.js`
+#### `arithmetic.js`
 ##### Exported Values and Methods
 
-###### `foo(thing) -> string`
-Usage Notes or examples
+###### `.add(a[, b[, ...]]) -> number`
+Addition function takes any quantity of number parameters and returns their sum
 
-###### `bar(array) -> array`
-Usage Notes or examples
+###### `.subtract(a[, b[, ...]]) -> number`
+Subtraction function takes any quantity of number parameters and returns the sequential result of subtraction
+(e.g. a - b - ... = result)
 
-### Setup
-#### `.env` requirements
-* `PORT` - Port Number
-* `MONGODB_URI` - URL to the running mongo instance/db
+###### `.multiply(a[, b[, ...]]) -> number`
+Multiplication function takes any quantity of number parameters and returns the product
 
-#### Running the app
-* `npm start`
-* Endpoint: `/foo/bar/`
-  * Returns a JSON object with abc in it.
-* Endpoint: `/bing/zing/`
-  * Returns a JSON object with xyz in it.
-  
+###### `.divide(a, b) -> number`
+Division function takes two parameters and returns the result of `a / b`. Note: b = 0 is disallowed and will return NaN.
+
 #### Tests
-* How do you run tests?
-* What assertions were made?
-* What assertions need to be / should be made?
-
-#### UML
-Link to an image of the UML for your application and response to events
+* run tests with `npm test`
+* All function input types tested - arithmetic functions return null for non-numeric inputs, greeter returns null for non-string inputs.

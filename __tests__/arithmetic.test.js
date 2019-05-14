@@ -66,7 +66,7 @@ describe('arithmetic functions', () => {
 
 describe('greet function', () => {
   it('expects a string', () => {
-    expect(greet('George')).toStrictEqual('hello George');
+    expect(greet('world')).toStrictEqual('hello world');
   });
   it('returns null when called with anything but a string', () => {
     expect(greet(42)).toBeNull();
